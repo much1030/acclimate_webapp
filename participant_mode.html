@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initialscale=1">
+		<title>acclimate Webapp - Participant Mode</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="p1">
+			<div data-role="header">
+				<h1>acclimate Webapp</h1>
+			</div>
+			<div role="main" class="ui-content">
+				<p>Du bist mit dem acclimate XX001 verbunden.</p>
+				<img src="img/acclimate.jpg" alt="acclimate" width="300px">
+				<p>Fühlst du dich wohl in diesem Raum?</p>
+				<p>Mir ist es ...</p>
+				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu warm</a>
+				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu kalt</a>
+				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu stickig</a>
+				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu hell</a>
+				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu dunkel</a>
+				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu laut</a>
+			</div>
+			<div data-role="footer">
+				<h4>(c) acclimate - Wahrnehmungsbasierte Interaktion, Wintersemester 2020/21</h4>
+			</div>
+		</div>
+		<div data-role="page" id="p2" data-dialog="true">
+			<div data-role="header">
+				<h1>Beispieldialog</h1>
+			</div>
+			<div role="main" class="ui-content">
+				<p>Textinhalt des Dialogs</p>
+			</div>
+		</div>
+	</body>
+</html>
