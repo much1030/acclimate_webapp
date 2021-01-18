@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initialscale=1">
 		<title>acclimate Webapp - Participant Mode</title>
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet"> 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.mobile-1.4.5.min.js"></script>
 	</head>
@@ -18,15 +20,26 @@
 				<img src="img/acclimate.jpg" alt="acclimate" width="300px">
 				<p>Fühlst du dich wohl in diesem Raum?</p>
 				<p>Mir ist es ...</p>
-				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu warm</a>
-				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu kalt</a>
-				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu stickig</a>
-				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu hell</a>
-				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu dunkel</a>
-				<a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu laut</a>
+				<table width="100%">
+					<tr>
+						<td><a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu kalt</a></td>
+						<td><a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu warm</a></td>
+					</tr>
+					<tr>
+						<td><a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu dunkel</a></td>
+						<td><a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu hell</a></td>
+					</tr>
+					<tr>
+						<td><a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu leise</a></td>
+						<td><a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu laut</a></td>
+					</tr>
+					<tr>
+						<td><a href="#p2" class="ui-shadow ui-btn ui-corner-all ui-btn-inline-block" data-transition="pop">zu stickig</a></td>
+					</tr>
+				</table>
 			</div>
 			<div data-role="footer">
-				<h4>(c) acclimate - Wahrnehmungsbasierte Interaktion, Wintersemester 2020/21</h4>
+				<h4>&copy; acclimate - Wahrnehmungsbasierte Interaktion, <br>Wintersemester 2020/21</h4>
 			</div>
 		</div>
 		<div data-role="page" id="p2" data-dialog="true">
